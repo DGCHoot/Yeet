@@ -1,5 +1,5 @@
 {
-  "name": "cftools-discord-bot",
+  "name": "Yeet",
   "description": "A discord bot template using discord.js",
   "version": "1.2.0",
   "main": "src/index.js",
@@ -8,24 +8,24 @@
     "dev": "nodemon run node --trace-warnings .",
     "test": "node . mode=testing",
     "commit": "cz",
-    "docker:build": "docker build --tag cftools-discord-bot .",
-    "docker:shell": "docker run -it --rm cftools-discord-bot sh",
-    "docker:start": "docker run -it -p 3000:3000 --env-file ./.env -d --name cftools-discord-bot cftools-discord-bot",
-    "docker:restart": "docker restart cftools-discord-bot",
-    "docker:stop": "docker stop cftools-discord-bot",
-    "docker:kill": "docker rm -f cftools-discord-bot",
-    "docker:purge": "docker rm -fv cftools-discord-bot",
-    "docker:logs": "docker logs cftools-discord-bot -f",
-    "docker:image": "docker image tag cftools-discord-bot mirasaki/cftools-discord-bot",
-    "docker:push": "docker push mirasaki/cftools-discord-bot",
+    "docker:build": "docker build --tag Yeet .",
+    "docker:shell": "docker run -it --rm Yeet sh",
+    "docker:start": "docker run -it -p 3000:3000 --env-file ./.env -d --name Yeet Yeet",
+    "docker:restart": "docker restart Yeet",
+    "docker:stop": "docker stop Yeet",
+    "docker:kill": "docker rm -f Yeet",
+    "docker:purge": "docker rm -fv Yeet",
+    "docker:logs": "docker logs Yeet -f",
+    "docker:image": "docker image tag Yeet mirasaki/Yeet",
+    "docker:push": "docker push mirasaki/Yeet",
     "docker:update": "git pull && npm install && npm run docker:stop && npm run docker:kill && npm run docker:build && npm run docker:start",
-    "docker:dev:build": "docker build --tag cftools-discord-bot-dev -f development.Dockerfile .",
-    "docker:dev:start": "docker run -it --rm -v $(pwd):/app -v /app/node_modules -p 3000:3000 -p 9229:9229 -w /app cftools-discord-bot-dev",
-    "pm2:start": "pm2 start --name=cftools-discord-bot npm -- run start",
-    "pm2:stop": "pm2 stop cftools-discord-bot",
-    "pm2:purge": "pm2 stop cftools-discord-bot && pm2 delete cftools-discord-bot && pm2 reset cftools-discord-bot",
-    "pm2:logs": "pm2 logs --lines 300 cftools-discord-bot",
-    "pm2:logsError": "pm2 logs --err --lines 300 cftools-discord-bot",
+    "docker:dev:build": "docker build --tag Yeet-dev -f development.Dockerfile .",
+    "docker:dev:start": "docker run -it --rm -v $(pwd):/app -v /app/node_modules -p 3000:3000 -p 9229:9229 -w /app Yeet-dev",
+    "pm2:start": "pm2 start --name=Yeet npm -- run start",
+    "pm2:stop": "pm2 stop Yeet",
+    "pm2:purge": "pm2 stop Yeet && pm2 delete Yeet && pm2 reset Yeet",
+    "pm2:logs": "pm2 logs --lines 300 Yeet",
+    "pm2:logsError": "pm2 logs --err --lines 300 Yeet",
     "lint": "eslint src",
     "linter": "eslint src --fix",
     "writeLinter": "eslint src --output-file linter-output.txt",
@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mirasaki/cftools-discord-bot.git"
+    "url": "git+https://github.com/Hootsir/Yeet.git"
   },
   "keywords": [
     "nodejs",
@@ -73,7 +73,7 @@
     "discordjs",
     "v14",
     "discord-bot",
-    "cftools-discord-bot",
+    "Yeet",
     "slash-commands",
     "buttons",
     "modals",
@@ -85,9 +85,9 @@
   "author": "Richard Hillebrand (Mirasaki)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mirasaki/cftools-discord-bot/issues"
+    "url": "https://github.com/Hootsir/Yeet/issues"
   },
-  "homepage": "https://github.com/Mirasaki/cftools-discord-bot#readme",
+  "homepage": "https://github.com/Hootsir/Yeet#readme",
   "optionalDependencies": {
     "fsevents": "^2.3.2"
   },

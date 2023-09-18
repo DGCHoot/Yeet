@@ -5,12 +5,10 @@
 <div align='center'>
 
   [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
-  ![build](https://img.shields.io/github/actions/workflow/status/mirasaki/cftools-discord-bot/test.yml)
-  [![CodeFactor](https://www.codefactor.io/repository/github/Mirasaki/cftools-discord-bot/badge)](https://www.codefactor.io/repository/github/Mirasaki/cftools-discord-bot)
+  ![build](https://img.shields.io/github/actions/workflow/status/mirasaki/Yeet/test.yml)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ![Docker Pulls](https://img.shields.io/docker/pulls/mirasaki/cftools-discord-bot)
-  ![version](https://img.shields.io/github/v/release/Mirasaki/cftools-discord-bot)
-  <!-- ![size](https://img.shields.io/docker/image-size/mirasaki/cftools-discord-bot) -->
+  ![version](https://img.shields.io/github/v/release/Hootsir/Yeet)
+  <!-- ![size](https://img.shields.io/docker/image-size/mirasaki/Yeet) -->
 
 </div>
 
@@ -24,7 +22,7 @@
 </p>
 <div align='center'>
 
-[![Stargazers repo roster for @Mirasaki/cftools-discord-bot](https://reporoster.com/stars/Mirasaki/cftools-discord-bot)](https://github.com/Mirasaki/cftools-discord-bot/stargazers)
+[![Stargazers repo roster for @Hootsir/Yeet](https://reporoster.com/stars/Hootsir/Yeet)](https://github.com/Hootsir/Yeet/stargazers)
 </div>
 <br />
 <br/>
@@ -86,8 +84,8 @@ We have partnered with [VYKIX.com](https://portal.vykix.com/aff.php?aff=17) afte
 
 <h2 id="installation">🔨 Installation</h2>
 
-Check out [the wiki for this project](https://wiki.mirasaki.dev/docs/cftools-discord-bot) to learn how to configure and run this bot
+Check out [the wiki for this project](https://wiki.mirasaki.dev/docs/Yeet) to learn how to configure and run this bot
 
 > Open source, self-hosted, and MIT licensed, meaning you're in full control.
 
-<p align="center"><a href="https://github.com/Mirasaki/cftools-discord-bot#cftools-discord-bot"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
+<p align="center"><a href="https://github.com/Hootsir/Yeet#Yeet"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
